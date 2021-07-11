@@ -1,0 +1,42 @@
+.header{
+  margin-top: 10px;
+  background-color: skyblue;
+}
+
+.image{
+  width: 100%;
+  height: auto;
+}
+
+.title{
+  text-align: center;
+}
+
+.subtitle{
+  padding: 10px;
+  text-align: center;
+
+}
+
+.block{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result{
+  margin-top: 15px;
+}
+
+.actions{
+  gap: 10px;
+
+  .colorButton2{
+    background-color:	#FF8C00;
+    color: #fff;
+  }
+
+  .colorButton1{
+    background-color: #E0FFFF;
+    color: 	#696969;
+  }
+}

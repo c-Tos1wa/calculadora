@@ -1,0 +1,29 @@
+
+.foto{
+  width: 100%;
+  height: auto;
+}
+.nome{
+  text-align: center;
+}
+
+.texto{
+  text-align: center;
+}
+
+.buttons{
+  gap: 20px;
+  margin: 5px 0 10px 20px;
+  display:flex;
+  align-items: center;
+
+  .unit{
+    background-color: brown;
+    color: white;
+  }
+}
+
+.total{
+  margin-bottom: 10px;
+  font-size: large;
+}

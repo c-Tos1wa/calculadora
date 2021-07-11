@@ -32,3 +32,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+.eslintrc
+next-env.d.ts
+next.config.js
+package.json
+tsconfig.json
+yarn.lock
