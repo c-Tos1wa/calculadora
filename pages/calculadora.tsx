@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Header from '../components/header'
 import Footer from '../components/footer'
 import { Grid, Container, Typography, Button, ButtonGroup, TextField } from "@material-ui/core";
 import styles from '../styles/calculadora.module.scss'
@@ -30,23 +31,13 @@ export default function Calculator() {
 
   return(
     <>
-    <div className={styles.cabeçalho}>
-      <Container fixed>
-        <Grid container justifyContent="center" alignItems="center" spacing={2}>
-          <Grid item xs={12} sm={6}>
-            <Typography variant='h3' className={styles.nome}>Calculadora</Typography> 
-            <Typography className={styles.texto}>
-              Simples para operações cotidianas.
-            </Typography>
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <img className={styles.foto}
-              src='/images/contas.jpg' 
-              alt='Numeros escritos em um quadro negro' 
-            />
-          </Grid>
-        </Grid>
-      </Container>
+    <div className={styles.header}>
+      <Header 
+        title='Calculadora'
+        subtitle='Simples para operações do cotidiano'
+        image='./images/calculadora.jpg'
+        altName='Mulher na frente de uma calculadora em pé'
+      />
     </div>
 
     <div className={styles.calc}>
